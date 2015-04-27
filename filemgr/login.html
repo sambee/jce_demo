@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://demos.gleamtech.com/filevista/login.aspx -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	FileVista
+</title>
+<link href="page.css" rel="stylesheet">
+<script src="login-combined.js"></script>
+<script src="language.js" charset="utf-8"></script></head>
+	<body>
+        <form method="post" action="./FileVista_files/FileVista.html" id="formLogin" onsubmit="return login();">
+
+
+            <input type="hidden" id="loginAction" value="/filevista/action.ashx/Login">
+            <div id="divLogin" style="position: absolute; visibility: visible; left: 522px; top: 36.5px;">
+                <div class="gt-panel" style="padding: 5px">
+				    <table border="0" cellpadding="0" cellspacing="5" style="width: 280px;">
+                        <tbody><tr>
+                            <td colspan="2">
+			                    <table border="0" cellpadding="5" cellspacing="0" style="width: 280px;">
+				                    <tbody><tr>
+					                    <td style="text-align: center"><img style="border: none; width: 48px; height: 48px" src="login.png" alt=""></td>
+					                    <td>Welcome to FileVista<br>Please enter your credentials:</td>
+				                    </tr>
+				                </tbody></table>                        
+                            </td>
+                        </tr>
+	                    <tr>
+	                        <td colspan="2" style="padding-bottom: 5px"><div class="gt-panel" style="height: 0px"></div></td>
+	                    </tr>
+                        <tr>
+					        <td style="width: 120px;">User name:</td>
+					        <td><input name="username" type="text" value="admin" style="width: 170px"></td>
+				        </tr>
+				        <tr>
+					        <td>Password:</td>
+					        <td><input name="password" type="password" value="" style="width: 170px"></td>
+				        </tr>
+				        <tr>
+					        <td>Language:</td>
+					        <td><select name="DropDownListLanguages" id="DropDownListLanguages" style="width: 175px">
+	<option value="ca">català</option>
+	<option value="de">Deutsch</option>
+	<option selected="selected" value="en">English</option>
+	<option value="es">español</option>
+	<option value="fr">français</option>
+	<option value="it">italiano</option>
+	<option value="nl">Nederlands</option>
+	<option value="sv">svenska</option>
+	<option value="tr">Türkçe</option>
+	<option value="ar">العربية</option>
+
+</select></td>
+				        </tr>
+				        <tr>
+                            <td></td>
+                            <td><input id="remember" name="remember" type="checkbox"><label for="remember">Remember me</label></td>
+				        </tr>
+				        <tr>
+					        <td colspan="2" style="text-align: right">
+						        <input name="submitButton" type="submit" value="Login" style="width: 100px;">
+					        </td>
+				        </tr>
+			        </tbody></table>
+                </div>
+                <div align="right" style="margin-top: 5px; font-size: 9px; color: grey;"><a href="http://www.gleamtech.com/products/filevista/web-file-manager" title="Web File Manager" target="blank" style="color: grey; text-decoration:none">Web File Manager</a> © GleamTech</div>
+                <br>
+		        <div align="center">Live Demo Administrator Credentials:<br>User name: <b>admin</b><br>Password: <b>admin</b></div>
+            </div>		
+        </form>
+	
+
+</body></html>

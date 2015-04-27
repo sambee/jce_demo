@@ -1,0 +1,1558 @@
+﻿html, body {    
+    font: normal 12px tahoma, arial, verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	overflow: hidden;
+	height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #40608C;
+}
+a:hover {
+    color: #2D405B;
+    text-decoration: underline;
+}
+.hlp {
+    text-indent: 20px;
+    line-height: 16px;
+    background: url(../images/icons/info.gif) no-repeat 5px 7px;
+}
+.win-hlp .x-panel-body {
+    padding: 5px;
+    background-color: #FFFFBA !important;
+    border: solid 1px #ccc;
+    margin-bottom: 5px;
+    text-indent: 20px;
+    line-height: 18px;
+    background: url(../images/icons/info.gif) no-repeat 5px 7px;
+}
+
+#x-desktop {
+	width: 100%;
+	height: 100%;
+	border: 0 none;
+	position: relative;
+    overflow:hidden;
+    cursor: default;
+    zoom:1;
+}
+
+/* Task Button */
+#ux-taskbar .x-btn {
+	float: left;
+	margin: 1px 0 0 1px;
+    position:relative;
+}
+
+#ux-taskbar-start .x-btn {
+	float: left;
+	margin: 0;
+    position:relative;
+}
+
+#ux-taskbar button {
+	text-align: left;
+	color: #ffffff;
+}
+
+.x-btn-icon .ux-taskbutton-center .x-btn-text{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 16px;
+	cursor:pointer;
+	white-space: nowrap;
+    padding:0;
+}
+.x-btn-icon .ux-taskbutton-center{
+	padding:1px;
+}
+
+.x-btn-text-icon .ux-taskbutton-center .x-btn-text{
+	background-position: 0 6px;
+	background-repeat: no-repeat;
+	padding:7px 0px 7px 20px;
+}
+
+.x-btn-text-icon .ux-startbutton-center .x-btn-text{
+	background-position: 0 4px;
+	background-repeat: no-repeat;
+	color:#000000 !important;
+	font-weight:bold;
+	padding:7px 0px 7px 28px;
+}
+
+.ux-taskbutton-left, .ux-taskbutton-right{
+	font-size:1px;
+    line-height:1px;
+}
+.ux-taskbutton-left{
+	width:4px;
+	height:28px;
+	background:url( ../images/desktop/default/taskbar/taskbutton.gif ) no-repeat 0 0;
+}
+.ux-taskbutton-right{
+	width:4px;
+	height:28px;
+	background:url( ../images/desktop/default/taskbar/taskbutton.gif ) no-repeat 0 -28px;
+}
+.ux-taskbutton-left i, .ux-taskbutton-right i{
+	display:block;
+    width:4px;
+    overflow:hidden;
+    font-size:1px;
+    line-height:1px;
+}
+.ux-taskbutton-center{
+	background:url( ../images/desktop/default/taskbar/taskbutton.gif ) repeat-x 0 -56px;
+	vertical-align: middle;
+	text-align:center;
+	padding:0 5px;
+	cursor:pointer;
+	white-space:nowrap;
+}
+
+#ux-taskbar .ux-taskbutton-left{ 
+	background-position:0 0;
+}
+#ux-taskbar .ux-taskbutton-right{
+	background-position:0 -28px;
+}
+#ux-taskbar .ux-taskbutton-center{
+	background-position:0 -56px;
+}
+
+#ux-taskbar .x-btn-over .ux-taskbutton-left{
+	background-position:0 -252px;
+}
+#ux-taskbar .x-btn-over  .ux-taskbutton-right{
+	background-position:0 -280px;
+}
+#ux-taskbar .x-btn-over .ux-taskbutton-center{
+	background-position:0 -308px;
+}
+
+#ux-taskbar .x-btn-click .ux-taskbutton-left{
+	background-position:0 -168px;
+}
+#ux-taskbar .x-btn-click  .ux-taskbutton-right{
+	background-position:0 -196px;
+}
+#ux-taskbar .x-btn-click .ux-taskbutton-center{
+	background-position:0 -224px;
+}
+
+#ux-taskbar .active-win .ux-taskbutton-left{
+	background-position:0 -84px;
+}
+#ux-taskbar .active-win  .ux-taskbutton-right{
+	background:url( ../images/desktop/default/taskbar/taskbutton.gif ) no-repeat 0 -112px;
+}
+#ux-taskbar .active-win .ux-taskbutton-center{
+	background:url( ../images/desktop/default/taskbar/taskbutton.gif ) repeat-x 0 -140px;
+}
+#ux-taskbar .active-win .ux-taskbutton-center button {
+    color:#fff;
+}
+
+/* Start Button */
+.ux-startbutton-left, .ux-startbutton-right{
+	font-size:1px;
+    line-height:1px;
+}
+.ux-startbutton-left{
+	width:10px;
+	height:28px;
+	background:url( ../images/desktop/default/taskbar/startbutton.gif ) no-repeat 0 0;
+}
+.ux-startbutton-right{
+	width:10px;
+	height:30px;
+	background:url( ../images/desktop/default/taskbar/startbutton.gif ) no-repeat 0 -28px;
+}
+.ux-startbutton-left i, .ux-startbutton-right i{
+	display:block;
+    width:10px;
+    overflow:hidden;
+    font-size:1px;
+    line-height:1px;
+}
+.ux-startbutton-center{
+	background:url( ../images/desktop/default/taskbar/startbutton.gif ) repeat-x 0 -56px;
+	vertical-align: middle;
+	text-align:center;
+	padding:0;
+	cursor:pointer;
+	white-space:nowrap;
+}
+
+#ux-taskbar .ux-startbutton-left{ 
+	background-position:0 0;
+}
+#ux-taskbar .ux-startbutton-right{
+	background-position:0 -30px;
+}
+#ux-taskbar .ux-startbutton-center{
+	background-position:0 -60px;
+}
+
+#ux-taskbar .x-btn-over .ux-startbutton-left{
+	background-position:0 -270px;
+}
+#ux-taskbar .x-btn-over  .ux-startbutton-right{
+	background-position:0 -300px;
+}
+#ux-taskbar .x-btn-over .ux-startbutton-center{
+	background-position:0 -330px;
+}
+
+#ux-taskbar .x-btn-click .ux-startbutton-left{
+	background-position:0 -180px;
+}
+#ux-taskbar .x-btn-click  .ux-startbutton-right{
+	background-position:0 -210px;
+}
+#ux-taskbar .x-btn-click .ux-startbutton-center{
+	background-position:0 -240px;
+}
+
+#ux-taskbar .active-win .ux-startbutton-left{
+	background-position:0 -90px;
+}
+#ux-taskbar .active-win  .ux-startbutton-right{
+	background:url( ../images/desktop/default/taskbar/startbutton.gif ) no-repeat 0 -120px;
+}
+#ux-taskbar .active-win .ux-startbutton-center{
+	background:url( ../images/desktop/default/taskbar/startbutton.gif ) repeat-x 0 -150px;
+}
+#ux-taskbar .active-win .ux-startbutton-center button {
+    color:#fff;
+}
+.start {
+	background-image: url( ../images/desktop/default/taskbar/startbutton-icon.gif ) !important;
+	background-position: 4px 4px !important;
+}
+
+/* Start Menu */
+.ux-start-menu {
+	background:transparent none;
+	border:0px none;
+	padding:0;
+}
+
+.ux-start-menu-tl .x-window-header {
+	color:#f1f1f1;
+	font:bold 11px tahoma,arial,verdana,sans-serif;
+    padding:5px 0 4px 30px;
+}
+
+.x-panel-tl .x-panel-icon, .ux-start-menu-tl .x-panel-icon {
+	background-position:0pt 4px;
+	background-repeat:no-repeat;
+	padding-left:20px !important;
+}
+
+.ux-start-menu-tl {
+	background: transparent url( ../images/desktop/default/startmenu/start-menu-left-corners.png ) no-repeat 0 0;
+	padding-left:6px;
+    zoom:1;
+    z-index:1;
+    position:relative;
+}
+
+.ux-start-menu-tr {
+	background: transparent url( ../images/desktop/default/startmenu/start-menu-right-corners.png ) no-repeat right 0;
+	padding-right:6px;
+}
+
+.ux-start-menu-tc {
+	background: transparent url( ../images/desktop/default/startmenu/start-menu-top-bottom.png ) repeat-x 0 0;
+	overflow:hidden;
+    zoom:1;
+}
+
+.ux-start-menu-ml {
+	background: transparent url( ../images/desktop/default/startmenu/start-menu-left-right.png ) repeat-y 0 0;
+	padding-left:6px;
+    zoom:1;
+}
+.ux-start-menu-mr {
+	background: transparent url( ../images/desktop/default/startmenu/start-menu-left-right.png ) repeat-y right 0;
+	padding-right: 6px;	
+    zoom:1;
+}
+
+.ux-start-menu-bc {
+	background: transparent url( ../images/desktop/default/startmenu/start-menu-top-bottom.png ) repeat-x 0 bottom;
+    zoom:1;
+}
+
+.ux-start-menu-bc .x-window-footer {
+    padding-bottom:6px;
+    zoom:1;
+    font-size:0;
+    line-height:0;
+}
+
+.ux-start-menu-bl {
+	background: transparent url( ../images/desktop/default/startmenu/start-menu-left-corners.png ) no-repeat 0 bottom;
+	padding-left:6px;
+    zoom:1;
+}
+
+.ux-start-menu-br {
+	background: transparent url( ../images/desktop/default/startmenu/start-menu-right-corners.png ) no-repeat right bottom;
+	padding-right:6px;
+    zoom:1;
+}
+
+.x-panel-nofooter .ux-start-menu-bc {
+	height:6px;
+}
+
+.ux-start-menu-splitbar-h {
+	background-color:#d0d0d0;
+}
+
+
+.ux-start-menu-bwrap {
+	border:0px none;
+	padding-left: 23px;
+	background: #494C4F url( ../images/desktop/default/startmenu/start-menu-logo.png ) no-repeat 0 bottom;
+}
+
+.ux-start-menu-body {
+	background:transparent none;
+	border:0px none;
+}
+
+.ux-start-menu-apps-panel {
+	background:#ffffff none;
+	border:1px solid #000;
+}
+
+.ux-start-menu-apps-panel a.x-menu-item
+{
+    position: relative;
+    padding: 7px 0 0 37px;
+    width: 129px;
+    height: 25px;
+}
+
+.ux-start-menu-apps-panel .x-menu-item-icon
+{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.ux-start-menu-apps-panel .x-menu-item-active
+{
+    background: #316AC5 none;
+    border:1px solid #316AC5;
+}
+
+.ux-start-menu-apps-panel .x-menu-item-active a.x-menu-item 
+{
+    color: #fff;
+}
+
+.ux-start-menu-apps-panel .x-menu-item-arrow 
+{
+    background-image: url( ../images/shared/arrow-right.gif );
+}
+
+.ux-start-menu-apps-panel .x-menu-sep {
+    background-color:#e0e0e0;
+    border-bottom:1px solid #fff;
+}
+
+/* Taskbar */
+#ux-taskbar {
+	background:transparent none;
+	height:30px;
+	margin:0;
+	padding:0;
+	position:relative;
+	z-index:12001;
+}
+
+#ux-taskbar-start {
+	background:#000000 url( ../images/desktop/default/taskbar/taskbar-start-panel-bg.gif ) repeat-x left top;
+	left:0px;
+	padding:0;
+	position:absolute;
+}
+
+#ux-taskbar-start .x-toolbar {
+	background: none;
+	padding:0px;
+	border:0px none;
+}
+
+#ux-taskbar-notify {
+	background:#000000 url( ../images/desktop/default/taskbar/taskbar-start-panel-bg.gif ) repeat-x left top;
+	left:0px;
+	padding:0;
+	position:absolute;
+	padding-top: 10px;
+}
+
+#ux-taskbar-notify .ux-notify-prg
+{
+    background:transparent url( ../images/desktop/default/taskbar/progress-bar.gif ) no-repeat left bottom;
+    height: 11px;
+    font-size: 1px;
+}
+
+#ux-taskbar-notify .active
+{
+    background:transparent url( ../images/desktop/default/taskbar/progress-bar.gif ) no-repeat left top;
+    height: 11px;
+    font-size: 1px;
+}
+
+#ux-taskbuttons-panel {
+	background:#000000 url( ../images/desktop/default/taskbar/taskbuttons-panel-bg.gif ) repeat-x left top;
+	padding-top:0;
+	position:relative;
+}
+
+#ux-taskbar .x-splitbar-h {
+	background:#000000 url( ../images/desktop/default/taskbar/taskbar-split-h.gif ) no-repeat 0 0;
+	width:8px;
+}
+
+.ux-taskbuttons-strip-wrap {
+	width:100%;
+    overflow:hidden;
+    position:relative;
+    zoom:1;
+}
+
+ul.ux-taskbuttons-strip {
+	display:block;
+	width:5000px;
+    zoom:1;
+}
+
+ul.ux-taskbuttons-strip li {
+    float:left;
+    margin-left:2px;
+}
+
+ul.ux-taskbuttons-strip li.ux-taskbuttons-edge {
+    float:left;
+    margin:0 !important;
+    padding:0 !important;
+    border:0 none !important;
+    font-size:1px !important;
+    line-height:1px !important;
+    overflow:hidden;
+    zoom:1;
+    background:transparent !important;
+    width:1px;
+}
+
+.x-taskbuttons-scrolling {
+	position:relative;
+}
+
+.x-taskbuttons-scrolling .ux-taskbuttons-strip-wrap {
+	margin-left:18px;
+	margin-right:18px;
+}
+
+td.ux-taskButtons-edge {
+    /*float:left;*/
+    margin:0 !important;
+    padding:0 !important;
+    border:0 none !important;
+    font-size:1px !important;
+    line-height:1px !important;
+    overflow:hidden;
+    zoom:1;
+    background:transparent !important;
+    width:1px;
+}
+
+.ux-taskbuttons-scroller-left {
+    background: transparent url( ../images/desktop/default/taskbar/scroll-left.gif ) no-repeat -18px 0;
+    width:18px;
+    position:absolute;
+    left:1px;
+    top:0px;
+    z-index:10;
+    cursor:pointer;
+}
+.ux-taskbuttons-scroller-left-over {
+    background-position: 0 0;
+}
+.ux-taskbuttons-scroller-left-disabled {
+    background-position: -18px 0;
+    opacity:.5;
+    -moz-opacity:.5;
+    filter:alpha(opacity=50);
+    cursor:default;
+}
+.ux-taskbuttons-scroller-right {
+    background: transparent url( ../images/desktop/default/taskbar/scroll-right.gif ) no-repeat 0 0;
+    width:18px;
+    position:absolute;
+    right:0;
+    top:0px;
+    z-index:10;
+    cursor:pointer;
+}
+.ux-taskbuttons-scroller-right-over {
+    background-position: -18px 0;
+}
+.ux-taskbuttons-scroller-right-disabled {
+    background-position: 0 0;
+    opacity:.5;
+    -moz-opacity:.5;
+    filter:alpha(opacity=50);
+    cursor:default;
+}
+
+/* ------ Overrides ----- */
+.x-resizable-proxy{
+    background:#C7DFFC;
+    opacity:.5;
+    -moz-opacity:.5;
+    filter:alpha(opacity=50);
+    border: 1px solid #3b5a82;
+}
+
+#spacer {
+	height: 25px;
+	float: left;
+	width: 0;
+	overflow: hidden;
+	margin-top: 2px;
+}
+
+.x-window-body p,.x-panel-body p {
+	padding: 10px;
+	margin: 0;
+}
+
+.x-moz-cur-fx {
+  	position: fixed;
+	position: expression("absolute");
+}
+
+/* Start Menu Icons */
+.db-icn-sm-computer {
+    background-image:url(../images/desktop/default/startmenu/computer.png) !important;
+}
+.db-icn-sm-help {
+    background-image:url(../images/desktop/default/startmenu/help.png) !important;
+}
+.db-icn-sm-key {
+    background-image:url(../images/desktop/default/startmenu/key.png) !important;
+}
+.db-icn-sm-wrench {
+    background-image:url(../images/desktop/default/startmenu/control.png) !important;
+}
+.db-icn-sm-star {
+    background-image:url(../images/desktop/default/startmenu/star.png) !important;
+}
+.db-icn-sm-home {
+    background-image:url(../images/desktop/default/startmenu/home.png) !important;
+}
+.db-icn-sm-user {
+    background-image:url(../images/desktop/default/startmenu/user.png) !important;
+}
+.db-icn-sm-tools {
+    background-image:url(../images/desktop/default/startmenu/tools.png) !important;
+}
+.db-icn-sm-apps {
+    background-image:url(../images/desktop/default/startmenu/apps.png) !important;
+}
+
+
+/* Branding Logo */
+.db-brnd a{  
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.db-brnd a span {
+    display: none;
+}
+
+/* upgrade adver */
+.db-adver {
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;    
+    background: url( ../images/site/ad-upgrade.png) no-repeat left top;
+    cursor: pointer;
+}
+.db-adver:hover {
+    background-position: left bottom;
+}
+.db-adver span {
+    display: none;
+}
+
+/* ------ Shortcuts ------ */
+.db-desktop-shortcuts {
+    width: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 0.9em;
+}
+.db-desktop-shortcut {
+    text-align: center;
+    height: 70px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.db-desktop-shortcut span {
+    display: block;
+    white-space: nowrap;
+	overflow:hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis; 
+}
+.db-desktop-shortcut-select {
+    background: url(../images/desktop/default/shortcuts/background.png) no-repeat left bottom !important;
+}
+.db-desktop-shortcut-over {
+    background: url(../images/desktop/default/shortcuts/background.png) no-repeat left top;
+}
+
+/* ----- Tree Icons ----- */
+.db-folders-tree .x-tree-elbow-plus,
+.db-folders-tree .x-tree-elbow-end-plus {
+    background-image: url( ../images/desktop/default/manager/tree_expand.gif ) !important;
+}
+.db-folders-tree .x-tree-elbow-minus,
+.db-folders-tree .x-tree-elbow-end-minus { 
+    background-image: url( ../images/desktop/default/manager/tree_collapse.gif ) !important;
+}
+
+/* ----- Single Upload Dialog ----- */
+.x-dlg-upload div.hlp {
+    padding: 0 0 10px 0;
+    height: 16px;
+    background: url(../images/icons/info.gif) no-repeat left 3px;
+}
+.x-dlg-upload div.swc
+{
+    margin-top: 5px;
+    padding: 0 0 5px 20px;
+    height: 16px;
+    background: url(../images/icons/switcher.png) no-repeat left 0;
+}
+
+.x-dlg-upload div.prg
+{
+    padding-top: 5px;
+}
+
+.x-dlg-upload div.prg span
+{
+    color: #aaa;
+    font: bold 12px Arial;
+}
+
+.x-dlg-upload div.prg table
+{
+    margin-top: 15px;    
+}
+
+.x-dlg-upload div.prg td
+{
+    padding: 4px 0;
+}
+
+.x-dlg-upload-progress
+{
+    margin-bottom: 5px;
+    height: 24px;
+    border: 1px solid gray;
+    background-color: #fff;
+}
+
+.x-dlg-upload-progress-bar
+{
+    height: 100%;
+    background-color: Red;
+    background: url(../images/desktop/default/manager/progress.gif) repeat-x;
+}
+.x-dlg-upload-status
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.x-dlg-upload div.suc
+{
+    padding: 5px 0 13px 23px;
+    overflow: hidden;
+    background: url(../images/icons/check.gif) no-repeat 2px 5px;
+}
+
+.x-dlg-upload input {
+	background: url(../images/shared/input_boxes.gif) no-repeat 0 0;
+	border: none;
+	width: 281px;
+	height: 20px;
+	padding-left: 3px;
+	padding-top: 3px;
+}
+.x-dlg-upload input:focus {
+	background-color: transparent;
+}
+.x-dlg-upload div.fileinputs {
+	position: relative;
+	height: 30px;
+	width: 340px;
+	margin-left: 10px;
+}
+.x-dlg-upload div.fileinputs img {
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+.x-dlg-upload input.file {
+	width: 340px;
+	margin: 0;
+}
+
+.x-dlg-upload input.file {
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}
+
+.x-dlg-upload div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 390px;
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+	line-height: 90%;
+}
+
+.x-dlg-upload div.fakefile input {
+	margin-bottom: 5px;
+	margin-left: 0;
+}
+
+/* ----- Property Panel ----- */
+.db-property-panel .x-panel-body {
+    border-top: solid 1px #d0d0d0;
+    overflow: hidden;
+    background: #eee url(../images/desktop/default/manager/property.png) repeat-x top;
+    padding-top: 3px;
+}
+.db-property-panel table {
+    margin:0px;
+    padding:0px;
+    border-collapse: collapse;
+}
+.db-property-panel td {
+    padding: 4px 3px;
+    
+}
+.db-property-panel td.ppLabel {
+    text-align: right;
+    color: #aaa;
+    font-weight: bold;
+}
+.db-property-panel td.ppTitle {
+    padding-left: 7px;
+    color: #215DC6;
+    font-weight: bold;    
+}
+.db-property-panel td.ppComment {
+    background: url(../images/icons/comment.png) no-repeat right center;
+}
+.db-pp-status-published, .db-pp-status-shared, .db-pp-status-versioned {
+    display: block; 
+    float: left; 
+    width:65px; 
+    height: 13px; 
+    padding-top: 1px;
+    margin-right: 5px; 
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: .9em;
+    background: url(../images/desktop/default/manager/status_pp.png) no-repeat left top;
+}
+.db-pp-status-published { background-position: left -14px; }
+.db-pp-status-versioned { background-position: left -28px; }
+
+/* ----- Dialog Property Panel ----- */
+.db-property-dialog .x-window-body {
+    background-color: Transparent;
+}
+
+/* ----- Progressbar ----- */
+.db-progress-bar {
+    padding: 5px;
+}
+.db-progress-bar p {
+    margin: 5px 0 5px 0;
+    text-align: center;
+    padding: 0;
+}
+.db-progress-bar div {
+    display: block;
+    background: url(../images/shared/progress-bar.gif) no-repeat;
+    height: 20px;
+}
+.db-progress-bar div span {
+    display: none;
+}
+
+/* ----- Toolbars ----- */
+.db-menubar {
+    padding: 0px 3px;
+}
+.db-addressbar {
+    padding: 1px 0 0 3px;
+}
+.db-toolbar {
+    padding: 5px 3px;
+}
+
+/* ----- Addressbook ----- */
+.x-form-field-wrap .x-form-address-trigger {
+    background-image: url(../images/desktop/default/manager/address-trigger.gif);
+}
+
+.x-form-field-wrap .x-form-color-trigger {
+	background-image: url(../images/desktop/default/manager/color_trigger.gif);
+}
+
+
+/* ----- Files Grid ----- */
+.db-ellipsis {
+	overflow:hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+    white-space: nowrap;      
+}
+.db-fg-grid .x-grid3-row {
+    border: none;
+}
+.db-fg-item  {
+    float: left;  
+    width:auto !important;   
+    margin: 5px 5px 10px 5px;  
+    cursor: default;
+    position: relative;
+}
+
+/* ----- Icons View ----- */
+.db-fg-iconView {
+    width: 62px;
+    height: 52px;
+    padding: 4px;
+    overflow: hidden;
+}
+.db-fg-iconView .db-icn {    
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.db-fg-iconView .db-txt {
+    text-align:center;
+    height: 15px;
+    margin-top: 5px;
+}
+.x-grid3-row-over .db-fg-iconView {
+    background: #fff url(../images/desktop/default/manager/vw-icn.png) no-repeat left top;
+}
+.x-grid3-row-selected .db-fg-iconView {
+    background: #fff url(../images/desktop/default/manager/vw-icn.png) no-repeat left bottom;
+}
+
+/* ----- Details View ----- */
+.db-fg-detailView .db-icn {
+    float: left;
+    height: 16px;
+    width: 16px;
+    margin-left: 5px;
+}
+.db-fg-detailView .db-txt {
+    padding: 1px 0 0 2px;
+}
+
+/* ----- Thumbnail View ----- */
+.db-fg-thumbView {
+    width: 82px;
+    height: 82px;
+    padding: 4px;
+    overflow: hidden;
+}
+.db-fg-thumbView .db-icn {
+    height: 60px;
+    border: solid 1px #E0E0E0;
+    width: 80px;
+    overflow: hidden;
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.db-fg-thumbView .db-icn table {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.db-fg-thumbView .db-icn table td {
+    vertical-align:middle;
+    text-align: center;
+}
+.db-fg-thumbView .db-txt {
+    text-align:center;
+    height: 14px;
+    padding-top: 3px;
+    margin-top: 3px;
+}
+.x-grid3-row-over .db-fg-thumbView {
+    background: #fff url(../images/desktop/default/manager/vw-tmb.png) no-repeat left top;
+}
+.x-grid3-row-selected .db-fg-thumbView {
+    background: #fff url(../images/desktop/default/manager/vw-tmb.png) no-repeat left bottom;
+}
+.x-grid3-row-selected .db-fg-thumbView .db-icn {
+    border-color: #AACCF6;
+}
+
+/* ----- Tiles View ----- */
+.db-fg-tileView {
+    width: 170px;
+    height: 48px;
+    padding: 4px;
+    overflow: hidden;
+}
+.db-fg-tileView .db-icn {    
+    float: left;
+    margin-left: 4px;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+}
+.db-fg-tileView .db-icn img {
+    width: 48px;
+    height: 48px;
+}
+.db-fg-tileView .db-txt {
+    padding-top: 3px;
+    padding-left: 5px;
+}
+.db-fg-tileView .db-txt span {
+    display: block;    
+    color: #666;
+    font-size: 0.9em;
+    line-height: 14px;
+}
+.db-fg-tileView .db-txt span.nm {
+    color: #000;
+    font-size: 1em;
+}
+.x-grid3-row-over .db-fg-tileView, .x-view-over  .db-fg-tileView {
+    background: #fff url(../images/desktop/default/manager/vw-til.png) no-repeat left top;
+}
+
+.x-grid3-row-selected .db-fg-tileView, .x-view-selected .db-fg-tileView {
+    background: #fff url(../images/desktop/default/manager/vw-til.png) no-repeat left bottom;
+}
+
+/* ----- Upload From Url ----- */
+.db-ufu-win .x-panel-header {
+    background-image: none;
+    border-bottom-style: none;
+}
+.db-ufu-win p.hlp {
+    padding: 8px 0 3px 25px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position:  7px 7px;
+    font-weight: bold;
+}
+.db-ufu-win p.info {
+    padding: 10px 0 3px 30px;
+    overflow: hidden;
+    background: url(../images/shared/arrow-right.gif) no-repeat 20px 14px;
+}
+.db-ufu-win div.prg p.hlp {
+    background-image: url(../images/icons/info.gif);
+}
+.db-ufu-win div.prg p.bar {
+    display: block;
+    background: url(../images/shared/progress-bar.gif) no-repeat center bottom;
+    height: 20px;
+}
+.db-ufu-win div.prg p.bar span {
+    display: none;
+}
+.db-ufu-win div.prg p.center {
+    text-align: center;
+}
+.db-ufu-win div.suc p.hlp {
+    background-image: url(../images/icons/check.gif);
+}
+.db-ufu-win div.err p.hlp {
+    background-image: url(../images/icons/exclamation.gif);
+}
+
+/* ----- FTP Manager ----- */
+.db-ftp-tree .x-tree-node-leaf .x-tree-node-icon{background-image:url(../clientcode/ext/resources/images/default/tree/folder.gif);}
+
+/* ----- Live Messenger ----- */
+.db-msg-snt, .db-msg-rcv {
+    font: 12px Arial;
+    color: #333;
+    margin-bottom: 3px;
+}
+.db-msg-nm {
+    font-weight: bold;
+}
+.db-msg-snt .db-msg-nm {
+    color: #808080;
+}
+.db-msg-rcv .db-msg-nm {
+    color: #339;
+}
+.db-msg-avatar {
+    background: url(../images/shared/avatar.png) no-repeat left top;
+    padding: 8px;
+}
+.db-msg-avatar img {
+    width: 46px;
+    height: 46px;
+}
+.db-msg-tree .x-tree-elbow-plus,
+.db-msg-tree .x-tree-elbow-end-plus {
+    background-image: url( ../images/desktop/default/manager/tree_expand.gif ) !important;
+}
+.db-msg-tree .x-tree-elbow-minus,
+.db-msg-tree .x-tree-elbow-end-minus { 
+    background-image: url( ../images/desktop/default/manager/tree_collapse.gif ) !important;
+}
+.db-msg-tree-status .x-tree-node-icon {
+    display: none;
+}
+
+/* ----- Multiple Upload ----- */
+.db-file-progress-wrap {
+    position: relative;
+    border-bottom: solid 1px #e4e4e4;
+    clear: both;
+}
+.db-file-progress-wbar {
+    height: 20px;
+}
+.db-file-progress-bar {
+    background: #6DE581 url(../images/desktop/default/manager/upload_progress.png) repeat-x top;
+    visibility: hidden;
+}
+.db-file-progress-text {
+    height: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.db-file-progress-text div.name, .db-file-progress-text div.size, .db-file-progress-text div.stat {
+    display:table-cell;   
+    float: left;
+    line-height:20px;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.db-file-progress-text div.name {
+    width: 314px;
+    padding-left: 10px;
+}
+.db-file-progress-text div.size {
+    width: 70px;
+    text-align: right;
+    padding-right: 20px;
+}
+.db-file-progress-text div.stat {
+    width: 16px;
+    padding-left: 10px;
+    background-position: 10px 2px;
+    background-repeat: no-repeat;
+}
+.db-file-progress-text div.stat span.cancel {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url( ../images/icons/delete.png) no-repeat left top;
+    cursor: pointer;
+    margin-top: 2px;
+}
+.db-file-progress-cancel {
+    color: #aaa;
+}
+.db-file-progress-cancel span.cancel, 
+.db-file-progress-complete span.cancel, 
+.db-file-progress-error span.cancel {
+    visibility: hidden;
+}
+.db-file-progress-cancel div.stat {
+    background-image: url( ../images/icons/bin.png)
+}
+.db-file-progress-complete {
+    color: #080;
+}
+.db-file-progress-complete div.stat {
+    background-image: url( ../images/icons/check.gif)
+}
+.db-file-progress-error {
+    color: #dc143c;
+}
+.db-file-progress-error div.stat {
+    background-image: url( ../images/icons/error.png)
+}
+.db-upload-files .x-panel-header {
+    background: #F9F9F9 url(../images/desktop/default/manager/upload_list_head.png) repeat-x top;
+    height: 22px;
+    border-bottom: solid 1px #D0D0D0;
+    border-top: solid 1px #e6e6e6;
+    padding: 1px 0 0 0;
+    color: #666;
+}
+.db-upload-files .x-panel-header div.name, 
+.db-upload-files .x-panel-header div.size, 
+.db-upload-files .x-panel-header div.stat {
+    display:table-cell;   
+    float: left;
+    line-height:22px;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.db-upload-files .x-panel-header div.name {
+    border-right: solid 1px #D0D0D0;
+    padding-left: 10px;
+    width: 314px;
+}
+.db-upload-files .x-panel-header div.size {
+    border-right: solid 1px #D0D0D0;
+    border-left: solid 1px #EEEEEE;
+    padding-left: 20px;
+    width: 68px;
+}
+.db-upload-progress-wrap {
+    background-color:#F8F8F8;
+    padding:10px 5px 0 5px;
+    border-bottom: solid 1px #e6e6e6;    
+}
+.db-upload-progress-table {
+    width: auto;
+    border-collapse: collapse;
+    margin-top: 7px;
+}
+.db-upload-progress-table .db-upload-progress-label {
+    width: 80px;
+    text-align: left;
+    padding: 2px 2px 2px 5px;
+}
+.db-upload-progress-table .db-upload-progress-value {
+    width:130px;
+}
+.db-upload-error-wrap {
+    background-color: #ffffe1;
+    border-bottom: solid 1px #e4e4e4;
+    clear: both;    
+    height: 20px;
+}
+.db-upload-error-text div.name, .db-upload-error-text div.cancel {
+    display:table-cell;   
+    float: left;
+    line-height:20px;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.db-upload-error-text div.name {
+    padding-left: 25px;    
+    width: 395px;
+    background: url( ../images/icons/error.png) no-repeat 5px 2px;
+}
+.db-upload-error-text div.cancel {
+    padding-left: 8px;    
+    width: 10px;
+}
+.db-upload-error-text div.cancel span.close {
+    width: 8px;
+    height: 8px;
+    display: block;
+    background: url( ../images/desktop/default/manager/close.gif) no-repeat left top;
+    cursor: pointer;
+    margin-top: 6px;    
+}
+.db-upload-header .x-panel-body {
+    padding: 10px 0 0 25px;
+    color: #333;
+    background: url('../images/icons/info.gif') no-repeat 5px 10px;
+}
+.db-upload-footer .x-panel-body {
+    padding: 5px 0 0 25px;
+    color: #333;
+    background: url('../images/icons/switcher.png') no-repeat 5px 5px;
+}
+
+a.btn-big {
+    display: block;
+    width: 212px;
+    height: 92px;
+    background: #fff url( ../images/shared/btn_big.png) no-repeat left top;
+    font: bold 22px Arial;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    margin: 0 auto;
+}
+a.btn-big:hover {
+    color: #fff;
+}
+.swfupload {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* ----- Audio Player ----- */
+.db-player-progress .x-slider-thumb {
+    background-image:url(../images/desktop/default/manager/progress_slider_thumb.png);
+}
+.db-player-toolbar .x-slider-thumb {
+    background-image:url(../images/desktop/default/manager/volume_slider_thumb.png);
+}
+.db-player-toolbar .x-slider-horz,
+.db-player-toolbar .x-slider-horz .x-slider-end,
+.db-player-toolbar .x-slider-horz .x-slider-inner {
+    background-image:url(../images/desktop/default/manager/volume_slider_bg.png);
+}
+.db-player-info .x-panel-body {
+    background:url(../images/desktop/default/manager/player_info_bg.png) no-repeat left top;
+    margin-bottom:5px;
+    padding:5px;
+    color: #999;
+}
+.db-player-info-pos {
+    font-size: 2.6em;
+    font-weight: normal;
+    float: left;
+    font-family: Arial;
+}
+.db-player-info-lod {
+    float: right;
+    padding-top: 3px;
+    font-size: 0.8em;
+}
+.db-player-info-id3 {
+    clear: both;
+    float: left;
+    margin-top: 10px;
+    padding-left: 16px;
+    white-space: nowrap;
+    background: url(../images/desktop/default/manager/playback.gif) no-repeat left 0px;
+}
+.db-player-info-play {
+    background-position: left 0px;
+}
+.db-player-info-stop {
+    background-position: left -16px;
+}
+.db-player-info-pause {
+    background-position: left -32px;
+}
+.db-player-pls {
+    overflow: auto;
+}
+.db-player-pls-item {
+    padding: 3px 5px;
+    border-bottom: solid 1px #d2d2d2;
+    white-space: nowrap;
+    color: #696969;
+    background: url(../images/desktop/default/manager/playlist.png) repeat-x top;
+    cursor: default;
+}
+.db-player-pls-item-over {
+    background-position: left -20px;
+}
+.db-player-pls .x-view-selected {
+    background-position: left -20px;
+}
+.db-player-pls-item-sel {
+    color: #0F7ECB !important;
+}
+.db-player-pls-empty {
+    text-align: center;
+    padding: 10px;
+    line-height: 55px;
+    font-size: 3.2em;
+    color: #e6e6e6;
+    cursor: default;
+}
+
+
+/* ----- Column Tree ----- */
+.x-column-tree .x-tree-node {
+    zoom:1;
+}
+.x-column-tree .x-tree-node-el {
+    border-bottom:1px solid #eee;
+    zoom:1;
+}
+.x-column-tree li {
+    line-height: normal;
+}
+.x-column-tree .x-tree-selected {
+    background: #d9e8fb;
+}
+.x-column-tree  .x-tree-node a {
+    line-height:18px;
+    vertical-align:middle;
+}
+.x-column-tree  .x-tree-node a span{
+	
+}
+.x-column-tree .x-tree-node-cb {
+    vertical-align: middle;
+    margin-left:2px !important;
+}
+.x-column-tree  .x-tree-node .x-tree-selected a span{
+	background:transparent;
+	color:#000;
+}
+.x-tree-col {
+    float:left;
+    overflow:hidden;
+    padding:0 1px;
+    zoom:1;
+    margin: 0;
+}
+
+.x-tree-col-text, .x-tree-hd-text {
+    overflow:hidden;
+    -o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+    padding:3px 3px 3px 5px;
+    white-space: nowrap;
+    font:normal 11px arial, tahoma, helvetica, sans-serif;
+}
+
+.x-tree-headers {
+    background: #f9f9f9 url(../ClientCode/ext/resources/images/default/grid/grid3-hrow.gif) repeat-x 0 bottom;
+	cursor:default;
+    zoom:1; 
+}
+
+.x-column-tree .x-panel-body {
+    overflow-x:hidden !important;
+}
+
+.x-tree-hd {
+    float:left;
+    overflow:hidden;
+    border-left:1px solid #eee;
+    border-right:1px solid #d0d0d0;
+}
+
+/* ----- Address Book ----- */
+.db-addressbook .x-panel-footer {
+    background: #f9f9f9 url(../images/desktop/default/manager/ab_footer.gif) repeat-x 0 bottom;
+    border-top: solid 1px #eee;
+}
+.db-addressbook-contact-details li {
+    padding: 5px 0 5px 20px;
+    background: url(../images/shared/arrow-right.gif) no-repeat 12px 9px;
+    font-weight: normal;
+}
+.db-addressbook-contact-details b {
+    color: #333;
+}
+.db-addressbook-qu {
+    font-size: 12px;
+    color: #333;
+    padding-bottom: 5px;
+    line-height: 18px;
+    white-space: normal;
+}
+.db-addressbook-info {
+    line-height: 18px;
+    padding: 2px 5px 10px 24px;
+    background: url(../images/icons/information.png) no-repeat 5px 3px;
+    white-space: normal;
+}
+.db-addressbook .x-grid3-row {
+    border:1px solid #ededed;
+    border-top-color:#fff;
+}
+.db-addressbook-error .x-panel-body, .db-addressbook-share .x-panel-body {
+    padding: 370px 10px 0 10px;
+    background: url(../images/shared/alert_big.png) no-repeat center 40px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+    color: #333;
+    white-space: normal;
+}
+.db-addressbook-share .x-panel-body {
+    background: url(../images/shared/question_big.png) no-repeat center 100px;
+}
+.db-addressbook-col-name, .db-addressbook-col-member {
+    color: #606060;
+}
+.x-menu-addressbook-item {
+    padding:0;
+    background-color: #EBECEE;
+}
+
+/* ----- FileUploadField component ----- */
+.x-form-file-wrap {
+    position: relative;
+    height: 22px;
+}
+.x-form-file-wrap .x-form-file {
+	position: absolute;
+	right: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+    height: 22px;
+}
+.x-form-file-wrap .x-form-file-btn {
+	position: absolute;
+	right: 0;
+	z-index: 1;
+}
+.x-form-file-wrap .x-form-file-text {
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    color: #777;
+}
+
+/* ------ Ext.ux.grid.RowActions ------ */
+.ux-row-action-cell .x-grid3-cell-inner {
+	padding:1px 0 0 0;
+}
+.ux-row-action-item {
+	float:left;
+	min-width:16px;
+	height:16px;
+	background-repeat:no-repeat;
+	margin: 0 5px 0 0;
+	cursor:pointer;
+	overflow:hidden;
+}
+.ext-ie .ux-row-action-item {
+	width:16px;
+}
+.ext-ie .ux-row-action-text {
+	width:auto;
+}
+.ux-row-action-item span {
+	vertical-align:middle;
+	padding:0 0 0 20px;
+	line-height:18px;
+}
+.ext-ie .ux-row-action-item span {
+	width:auto;
+}
+
+.x-grid-group-hd div {
+	position:relative;
+	height:16px;
+}
+.ux-grow-action-item {
+	min-width:16px;
+	height:16px;
+	background-repeat:no-repeat;
+	background-position: 0 50% ! important;
+	margin: 0 0 0 4px;
+	padding: 0 ! important;
+	cursor:pointer;
+	float:left;
+}
+.ext-ie .ux-grow-action-item {
+	width:16px;
+}
+.ux-action-right {
+	float:right;
+	margin: 0 3px 0 2px;
+	padding: 0 ! important;
+}
+.ux-grow-action-text {
+	padding: 0 ! important;
+	margin:0 ! important;
+	background:transparent none ! important;
+	float:left;
+}
+
+/* ------ File and Folder Status Icons ------ */
+.db-status-none, .db-status-shared, .db-status-published, .db-status-versioned,
+.db-status-sharedpublished, .db-status-versionedpublished {
+    border:0 none;
+    margin:0;
+    padding:0;
+    vertical-align:top;
+    height:18px; 
+    width:5px;
+    background: url(../images/desktop/default/manager/status_small.png) no-repeat left top;
+}
+.db-status-none { background-image: none !important; }
+.db-status-published { background-position: -10px top; }
+.db-status-versioned { background-position: -20px top; }
+.db-status-sharedpublished { background-position: -30px top; }
+.db-status-versionedpublished { background-position: -40px top; }
+
+.db-fg-detailView { position: relative; width: 100%; }
+.db-fg-detailView .db-status-icon { position: absolute; left:0; top: 0; }
+
+.db-fg-iconView .db-status-icon { background-image: url(../images/desktop/default/manager/status_medium.png); width:6px; position: absolute; left:12px; top: 18px; }
+.db-fg-thumbView .db-status-icon { background-image: url(../images/desktop/default/manager/status_large.png); width:8px; position: absolute; left:7px; top: 48px; }
+.db-fg-tileView .db-status-icon { background-image: url(../images/desktop/default/manager/status_medium.png); width:6px; position: absolute; left:2px; top: 32px; }
+
+
+/* ------ Notification Window ----- */
+.x-notification .x-window-body {
+    text-align:center;
+    background-color:#FFFFBA !important;
+    padding:10px;
+    line-height:16px;
+}
+
+.db-property-panel td.ppLabel {
+	color:#737373;
+	font-weight:normal;
+}
+
+.email-form .x-panel-mc .x-panel-tbar .x-toolbar {
+    border-top:1px solid #C2D6EF;
+    border-left:1px solid #C2D6EF;
+    border-bottom:1px solid #99BBE8;
+    margin:-5px -4px 0;
+}

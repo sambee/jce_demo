@@ -1,0 +1,317 @@
+﻿.db-icn-back {
+    background-image: url( ../images/icons/back.png) !important;
+}
+.db-icn-forward {
+    background-image: url( ../images/icons/forward.png) !important;
+}
+.db-icn-up {
+    background-image: url( ../images/icons/up.png) !important;
+}
+.db-icn-refresh {
+    background-image: url( ../images/icons/refresh.png) !important;
+}
+.db-icn-delete {
+    background-image: url( ../images/icons/remove.png) !important;
+}
+.db-icn-cut {
+    background-image: url( ../images/icons/cut.png) !important;
+}
+.db-icn-copy {
+    background-image: url( ../images/icons/copy.png) !important;
+}
+.db-icn-paste {
+    background-image: url( ../images/icons/paste.png) !important;
+}
+.db-icn-rename {
+    background-image: url( ../images/icons/rename.gif) !important;
+}
+.db-icn-upload {
+    background-image: url( ../images/icons/upload.gif) !important;
+}
+.db-icn-upload_ {
+    background-image: url( ../images/icons/upload_.png) !important;
+}
+.db-icn-upload-local {
+    background-image: url( ../images/icons/upload_local.png) !important;
+}
+.db-icn-upload-url {
+    background-image: url( ../images/icons/upload_url.png) !important;
+}
+.db-icn-download {
+    background-image: url( ../images/icons/download.gif) !important;
+}
+.db-icn-email {
+    background-image: url( ../images/icons/email.gif) !important;
+}
+.db-icn-email-attach {
+    background-image: url( ../images/icons/email_attach.gif) !important;
+}
+.db-icn-views {
+    background-image: url( ../images/icons/views.gif) !important;
+}
+.db-icn-views-album {
+    background-image: url( ../images/icons/views_album.gif) !important;
+}
+.db-icn-views-thumb {
+    background-image: url( ../images/icons/views_thumb.gif) !important;
+}
+.db-icn-views-tile {
+    background-image: url( ../images/icons/views_tile.gif) !important;
+}
+.db-icn-views-icon {
+    background-image: url( ../images/icons/views_icon.gif) !important;
+}
+.db-icn-views-detail {
+    background-image: url( ../images/icons/views_detail.gif) !important;
+}
+.db-icn-star {
+    background-image: url( ../images/icons/star.png) !important;
+}
+.db-icn-folder {
+    background-image: url( ../images/icons/folder.gif) !important;
+}
+.db-icn-folder-collapsed {
+	background-image: url(../resources/images/default/tree/folder.gif)!important;
+}
+.db-icn-folder-expanded {
+	background-image: url(../resources/images/default/tree/folder-open.gif)!important;
+}
+.db-icn-folder-new {
+    background-image: url( ../images/icons/folder_new.gif) !important;
+}
+.db-icn-folder-open {
+    background-image: url( ../images/icons/folder_open.gif) !important;
+}
+.db-icn-folder-zip {
+    background-image: url( ../images/icons/folder_zip.gif) !important;
+}
+.db-icn-folder-share {
+    background-image: url( ../images/icons/folder_share.gif) !important;
+}
+.db-icn-album-new {
+    background-image: url( ../images/icons/album_new.gif) !important;
+}
+.db-icn-album-edit {
+    background-image: url( ../images/icons/album_edit.gif) !important;
+}
+.db-icn-album-share {
+    background-image: url( ../images/icons/album_share.gif) !important;
+}
+.db-icn-bin-empty {
+    background-image: url( ../images/icons/bin_empty.gif) !important;
+}
+.db-icn-trash {
+    background-image: url( ../images/icons/trash_16.gif) !important;
+}
+.db-icn-publish {
+    background-image: url( ../images/icons/publish.gif) !important;
+}
+.db-icn-publish-remove {
+    background-image: url( ../images/icons/publish_remove.gif) !important;
+}
+.db-icn-tag {
+    background-image: url( ../images/icons/tag.png) !important;
+}
+.db-icn-tag-edit {
+    background-image: url( ../images/icons/tag_edit.gif) !important;
+}
+.db-icn-properties {
+    background-image: url( ../images/icons/properties.gif) !important;
+}
+.db-icn-edit {
+    background-image: url( ../images/icons/edit.gif) !important;
+}
+.db-icn-view {
+    background-image: url( ../images/icons/view.gif) !important;
+}
+.db-icn-sort-asc {
+    background-image: url( ../images/icons/sort_asc.gif) !important;
+}
+.db-icn-sort-desc {
+    background-image: url( ../images/icons/sort_desc.gif) !important;
+}
+.db-icn-file-new {
+    background-image: url( ../images/icons/file_new.gif) !important;
+}
+.db-icn-search {
+    background-image: url( ../images/icons/search.gif) !important;
+}
+.db-icn-computer {
+    background-image:url(../images/icons/computer.png) !important;
+}
+.db-icn-help {
+    background-image:url(../images/icons/help.png) !important;
+}
+.db-icn-user {
+    background-image:url(../images/icons/user.png) !important;
+}
+.db-icn-user-add {
+    background-image:url(../images/icons/user_add.png) !important;
+}
+.db-icn-user-edit {
+    background-image:url(../images/icons/user_edit.png) !important;
+}
+.db-icn-user-delete {
+    background-image:url(../images/icons/user_rem.png) !important;
+}
+.db-icn-user-chart {
+    background-image:url(../images/icons/user_chart.png) !important;
+}
+.db-icn-group {
+    background-image:url(../images/icons/group.png) !important;
+}
+.db-icn-chart {
+    background-image:url(../images/icons/chart.png) !important;
+}
+.db-icn-key {
+    background-image:url(../images/icons/key.png) !important;
+}
+.db-icn-zoho {
+    background-image:url(../images/icons/zoho.png) !important;
+}
+.db-icn-play {
+    background-image:url(../images/icons/play.png) !important;
+}
+.db-icn-pause {
+    background-image:url(../images/icons/pause.png) !important;
+}
+.db-icn-next {
+    background-image:url(../images/icons/next.png) !important;
+}
+.db-icn-previous {
+    background-image:url(../images/icons/previous.png) !important;
+}
+.db-icn-repeat {
+    background-image:url(../images/icons/repeat.png) !important;
+}
+.db-icn-shuffle {
+    background-image:url(../images/icons/shuffle.png) !important;
+}
+.db-icn-minus {
+    background-image:url(../images/icons/minus.gif) !important;
+}
+.db-icn-sound {
+    background-image:url(../images/icons/sound.png) !important;
+}
+.db-icn-bullet-blue {
+    background-image:url(../images/icons/bullet_blue.png) !important;
+}
+.db-icn-bullet-arrow {
+    background-image:url(../images/icons/bullet_arrow.gif) !important;
+}
+.db-icn-info {
+    background-image:url(../images/icons/information.png) !important;
+}
+.db-icn-compress {
+    background-image:url(../images/icons/compress.png) !important;
+}
+.db-icn-wrench {
+    background-image:url(../images/icons/wrench.png) !important;
+}
+.db-icn-image {
+    background-image:url(../images/icons/image.png) !important;
+}
+.db-icn-world {
+    background-image:url(../images/icons/world.png) !important;
+}
+.db-icn-music {
+    background-image:url(../images/icons/music.png) !important;
+}
+.db-icn-adobe {
+    background-image:url(../images/icons/adobe.png) !important;
+}
+.db-icn-autodesk {
+    background-image:url(../images/icons/autodesk.png) !important;
+}
+.db-icn-picnik {
+    background-image:url(../images/icons/picnik.png) !important;
+}
+.db-icn-snipshot {
+    background-image:url(../images/icons/snipshot.png) !important;
+}
+.db-icn-ipaper {
+    background-image:url(../images/icons/ipaper.png) !important;
+}
+
+.db-icn-add {
+    background-image: url(../images/icons/add.png) !important;
+}
+.db-icn-stop {
+    background-image: url(../images/icons/stop.png) !important;
+}
+.db-icn-cancel {
+    background-image: url(../images/icons/cancel.png) !important;
+}
+.db-icn-cross {
+    background-image: url(../images/icons/cross.png) !important;
+}
+.db-icn-clear {
+    background-image: url(../images/icons/bin_empty.png) !important;
+}
+.db-icn-ftp {
+    background-image: url(../images/icons/drive_web.png) !important;
+}
+.db-icn-digitalbucket { 
+    background-image: url(../images/icons/digitalbucket.png) !important; 
+}
+.db-icn-control { 
+    background-image: url(../images/icons/control.png) !important; 
+}
+.db-icn-theme { 
+    background-image: url(../images/icons/theme.png) !important; 
+}
+.db-icn-sharepage { 
+    background-image: url(../images/icons/sharepage.png) !important; 
+}
+.db-icn-error { 
+    background-image: url(../images/icons/error.png) !important; 
+}
+.db-icn-comment { 
+    background-image: url(../images/icons/comment.png) !important; 
+}
+.db-icn-clock { 
+    background-image: url(../images/icons/clock.png) !important; 
+}
+.db-icn-rollback { 
+    background-image: url(../images/icons/rollback.png) !important; 
+}
+.db-icn-addressbook { 
+    background-image: url(../images/icons/addressbook.png) !important; 
+}
+.db-icn-contact { 
+    background-image: url(../images/icons/contact.png) !important; 
+}
+.db-icn-contact-new { 
+    background-image: url(../images/icons/contact_new.png) !important; 
+}
+.db-icn-contact-import { 
+    background-image: url(../images/icons/contact_import.png) !important; 
+}
+.db-icn-contact-user { 
+    background-image: url(../images/icons/contact_user.png) !important; 
+}
+.db-icn-contacts { 
+    background-image: url(../images/icons/contacts.png) !important; 
+}
+.db-icn-contacts-new { 
+    background-image: url(../images/icons/contacts_new.png) !important; 
+}
+.db-icn-contacts-shared { 
+    background-image: url(../images/icons/contacts_shared.png) !important; 
+}
+
+.db-icn-buddy-online { background-image: url(../images/icons/buddy_online.png) !important; }
+.db-icn-buddy-away { background-image: url(../images/icons/buddy_away.png) !important; }
+.db-icn-buddy-back { background-image: url(../images/icons/buddy_berightback.png) !important; }
+.db-icn-buddy-buddies { background-image: url(../images/icons/buddy_buddies.png) !important; }
+.db-icn-buddy-offline { background-image: url(../images/icons/buddy_offline.png) !important; }
+.db-icn-buddy-phone { background-image: url(../images/icons/buddy_onthephone.png) !important; }
+.db-icn-buddy-lunch { background-image: url(../images/icons/buddy_outtolunch.png) !important; }
+.db-icn-buddy-busy { background-image: url(../images/icons/buddy_busy.png) !important; }
+.db-icn-buddy-chat { background-image: url(../images/icons/buddy_chat.png) !important; }
+.db-icn-wlorb { background-image: url(../images/icons/wlorb.png) !important; }
+
+.db-icn-editor-bold { background-image: url(../images/icons/editor_bold.gif) !important; }
+.db-icn-editor-italic { background-image: url(../images/icons/editor_italic.gif) !important; }
+.db-icn-editor-underline { background-image: url(../images/icons/editor_underline.gif) !important; }
+.db-icn-editor-forecolor { background-image: url(../images/icons/editor_forecolor.gif) !important; }

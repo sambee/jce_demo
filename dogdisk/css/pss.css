@@ -1,0 +1,155 @@
+/* Small Icons */
+.db-ft-root-small {
+    background-image: url( ../images/types/small/folders/root.gif) !important;
+}
+.db-ft-folder-small {
+    background-image: url( ../images/types/small/folders/folder.gif) !important;
+}
+.db-ft-folder-shared-small {
+    background-image: url( ../images/types/small/folders/folder_shared.gif) !important;
+}
+.db-ft-gallery-small {
+    background-image: url( ../images/types/small/folders/gallery.gif) !important;
+}
+.db-ft-album-small {
+    background-image: url( ../images/types/small/folders/album.gif) !important;
+}
+.db-ft-album-shared-small {
+    background-image: url( ../images/types/small/folders/album_shared.gif) !important;
+}
+.db-ft-published-small {
+    background-image: url( ../images/types/small/folders/published.gif) !important;
+}
+.db-ft-published-files-small {
+    background-image: url( ../images/types/small/folders/published_files.gif) !important;
+}
+.db-ft-published-folders-small {
+    background-image: url( ../images/types/small/folders/published_folders.gif) !important;
+}
+.db-ft-subs-small {
+    background-image: url( ../images/types/small/folders/subs.gif) !important;
+}
+.db-ft-subs-user-small {
+    background-image: url( ../images/types/small/folders/subs_user.gif) !important;
+}
+.db-ft-network-small {
+    background-image: url( ../images/types/small/folders/network.gif) !important;
+}
+.db-ft-network-user-small {
+    background-image: url( ../images/types/small/folders/network_user.gif) !important;
+}
+.db-ft-shared-albums-small {
+    background-image: url( ../images/types/small/folders/shared_albums.gif) !important;
+}
+.db-ft-shared-docs-small {
+    background-image: url( ../images/types/small/folders/shared_docs.gif) !important;
+}
+.db-ft-recyclebin-small {
+    background-image: url( ../images/types/small/folders/recycle.gif) !important;
+}
+
+.db-ft-3gp-small {
+    background-image: url( ../images/types/small/files/3gp.gif) !important;
+}
+.db-ft-avi-small {
+    background-image: url( ../images/types/small/files/avi.gif) !important;
+}
+.db-ft-bmp-small {
+    background-image: url( ../images/types/small/files/bmp.gif) !important;
+}
+.db-ft-chm-small {
+    background-image: url( ../images/types/small/files/chm.gif) !important;
+}
+.db-ft-dll-small {
+    background-image: url( ../images/types/small/files/dll.gif) !important;
+}
+.db-ft-doc-small {
+    background-image: url( ../images/types/small/files/doc.gif) !important;
+}
+.db-ft-docx-small {
+    background-image: url( ../images/types/small/files/docx.gif) !important;
+}
+.db-ft-dwf-small {
+    background-image: url( ../images/types/small/files/dwf.gif) !important;
+}
+.db-ft-exe-small {
+    background-image: url( ../images/types/small/files/exe.gif) !important;
+}
+.db-ft-flv-small {
+    background-image: url( ../images/types/small/files/flv.gif) !important;
+}
+.db-ft-gif-small {
+    background-image: url( ../images/types/small/files/gif.gif) !important;
+}
+.db-ft-htm-small {
+    background-image: url( ../images/types/small/files/htm.gif) !important;
+}
+.db-ft-ico-small {
+    background-image: url( ../images/types/small/files/gif.gif) !important;
+}
+.db-ft-jpg-small {
+    background-image: url( ../images/types/small/files/jpg.gif) !important;
+}
+.db-ft-mdb-small {
+    background-image: url( ../images/types/small/files/mdb.gif) !important;
+}
+.db-ft-mov-small {
+    background-image: url( ../images/types/small/files/mov.gif) !important;
+}
+.db-ft-mp3-small {
+    background-image: url( ../images/types/small/files/mp3.gif) !important;
+}
+.db-ft-mp4-small {
+    background-image: url( ../images/types/small/files/mp4.gif) !important;
+}
+.db-ft-mpg-small {
+    background-image: url( ../images/types/small/files/mpg.gif) !important;
+}
+.db-ft-pdf-small {
+    background-image: url( ../images/types/small/files/pdf.gif) !important;
+}
+.db-ft-pps-small {
+    background-image: url( ../images/types/small/files/pps.gif) !important;
+}
+.db-ft-ppt-small {
+    background-image: url( ../images/types/small/files/ppt.gif) !important;
+}
+.db-ft-pptx-small {
+    background-image: url( ../images/types/small/files/pptx.gif) !important;
+}
+.db-ft-rar-small {
+    background-image: url( ../images/types/small/files/rar.gif) !important;
+}
+.db-ft-rtf-small {
+    background-image: url( ../images/types/small/files/rtf.gif) !important;
+}
+.db-ft-swf-small {
+    background-image: url( ../images/types/small/files/swf.gif) !important;
+}
+.db-ft-txt-small {
+    background-image: url( ../images/types/small/files/txt.gif) !important;
+}
+.db-ft-unknown-small {
+    background-image: url( ../images/types/small/files/unknown.gif) !important;
+}
+.db-ft-wav-small {
+    background-image: url( ../images/types/small/files/wav.gif) !important;
+}
+.db-ft-wma-small {
+    background-image: url( ../images/types/small/files/wma.gif) !important;
+}
+.db-ft-wmv-small {
+    background-image: url( ../images/types/small/files/wmv.gif) !important;
+}
+.db-ft-xls-small {
+    background-image: url( ../images/types/small/files/xls.gif) !important;
+}
+.db-ft-xlsx-small {
+    background-image: url( ../images/types/small/files/xlsx.gif) !important;
+}
+.db-ft-xml-small {
+    background-image: url( ../images/types/small/files/xml.gif) !important;
+}
+.db-ft-zip-small {
+    background-image: url( ../images/types/small/files/zip.gif) !important;
+}
